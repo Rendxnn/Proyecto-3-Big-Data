@@ -69,6 +69,10 @@ Administración de acceso:
 ![image](https://github.com/user-attachments/assets/19fe90db-241a-47da-a916-ae6c8e88b40c)
 
 
+Steps del cluster: (el segundo quedó con mal nombre, pero corresponde al código de [step para la limpieza y filtrado de datos](steps/filter_and_clean_data_step.py))
+![image](https://github.com/user-attachments/assets/d76413c6-dda4-42ea-9aaa-3781b7fc36eb)
+
+
 Bucket S3:
 
 ![image](https://github.com/user-attachments/assets/b65a11bb-f806-4c02-8003-db3a4c0f4e3e)
