@@ -45,19 +45,55 @@ Se puede encontrar todo el código fuente de los steps desarrollados [aquí](ste
 Cluster EMR de AWS con la siguiente configuracion:
 
 Aplicaciones:
+
 ![image](https://github.com/user-attachments/assets/06724ca3-2f46-4824-9f5f-3de146ae6acf)
 
+
 Máquinas usadas: m5.xlarge
+
 ![image](https://github.com/user-attachments/assets/89c3cd5c-e91c-4dc8-9429-a566a47d25f2)
 
+
 Escalamiento y redes:
+
 ![image](https://github.com/user-attachments/assets/a2d7ded5-84de-4b81-885a-e20778e2b1a0)
 
+
 Seguridad: kepair creado
+
 ![image](https://github.com/user-attachments/assets/b74658cf-4eff-4117-b187-270e321d8d34)
 
+
 Administración de acceso:
+
 ![image](https://github.com/user-attachments/assets/19fe90db-241a-47da-a916-ae6c8e88b40c)
+
+
+Bucket S3:
+
+![image](https://github.com/user-attachments/assets/b65a11bb-f806-4c02-8003-db3a4c0f4e3e)
+
+
+Covid Data (S3 Raw):
+
+![image](https://github.com/user-attachments/assets/8f840bc6-0d82-4a3d-bafa-9b30430e5b14)
+
+
+Covid Data (S3 Trusted):
+
+![image](https://github.com/user-attachments/assets/15774704-8b44-4b42-bb63-a14857db3f2d)
+
+
+Covid Data (S3 Refined):
+
+![image](https://github.com/user-attachments/assets/681717b4-e438-4860-ad62-d404cfc8a642)
+
+
+Consulta desde Athena:
+
+![image](https://github.com/user-attachments/assets/af3e9025-2a9e-48b5-8540-4b860973727f)
+
+
 
 # 5. otra información que considere relevante para esta actividad.
 
