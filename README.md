@@ -44,18 +44,42 @@ Se puede encontrar todo el código fuente de los steps desarrollados [aquí](ste
 
 Cluster EMR de AWS con la siguiente configuracion:
 
+Aplicaciones:
+![image](https://github.com/user-attachments/assets/06724ca3-2f46-4824-9f5f-3de146ae6acf)
 
+Máquinas usadas: m5.xlarge
+![image](https://github.com/user-attachments/assets/89c3cd5c-e91c-4dc8-9429-a566a47d25f2)
+
+Escalamiento y redes:
+![image](https://github.com/user-attachments/assets/a2d7ded5-84de-4b81-885a-e20778e2b1a0)
+
+Seguridad: kepair creado
+![image](https://github.com/user-attachments/assets/b74658cf-4eff-4117-b187-270e321d8d34)
+
+Administración de acceso:
+![image](https://github.com/user-attachments/assets/19fe90db-241a-47da-a916-ae6c8e88b40c)
 
 # 5. otra información que considere relevante para esta actividad.
 
-
-
 ## Problemas encontrados:
 
-El principal problema que se encontró durante el desarrollo de la actividad fue la configuración del Ingress para el acceso a la página, que finalmente se solucionó creando el ingress directamente por el dominio. Perdimos bastante tiempo intentando ingresar con la ip de algun nodo. también se tuvo problemas con la carga de archivos de configuración compartidos de Wordpress al NFS, resultando en dificultades para subir imágenes a la página desplegada.
+El principal problema fue la creación del cluster, debido a que AWS mataba todos los clusters que intentaban crearse (posbiblemente debido a la alta demanda durante el fin de semana), arrojando un "Validation Error" tras 10 segundos de creación del cluster.
+
+Solución inicial: Cambio de region de N. Virginia (us-east-1) a Oregon (us-west-2).
+
+Sin embargo, Oregon presentó el mismo problema posteriormente.
 
 
+Durante la creación de los steps y ejecución de código a manera de pruebas dentro de la aplicación de JupyterHub del cluster, se encontró con tiempos largos de espera para el procesamiento de operaciones que anteriormente no habían tomado tanto tiempo, lo que terminó llevando a la eliminación del cluster avanzado para la creación de uno nuevo.
 
 
+Clusters creados debido al error de creación "Validation Error" (partiendo del clonado de un cluster que había funcionado perfectamente):
+
+Oregon:
+![image](https://github.com/user-attachments/assets/70adf00f-a083-4d6f-869a-9a46290bc357)
+
+N. Virginia:
+
+![image](https://github.com/user-attachments/assets/f8f27119-366d-4165-90d3-fca7bac618e9)
 
 
