@@ -118,4 +118,5 @@ N. Virginia:
 
 ![image](https://github.com/user-attachments/assets/f8f27119-366d-4165-90d3-fca7bac618e9)
 
+EDIT: El error resultó ser que AWS cancela la creación cuando se tiene algunos puertos abiertos en el security group donde se va a crear el cluster
 
