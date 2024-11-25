@@ -8,7 +8,8 @@
 ## Profesor
 - **Alvaro Enrique Ospina Sanjuan**: aeospinas@eafit.edu.co
 
-## [Video Sustentación](https://eafit-my.sharepoint.com/:v:/g/personal/srendont_eafit_edu_co/ERy0bWkPej5LjfLlaxZW-OABgU5G-8AeJ3-oiV8kGEaBkw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RZ3MpD)
+## Video Sustentación:
+[Ver aquí](https://eafit-my.sharepoint.com/:v:/g/personal/srendont_eafit_edu_co/ERy0bWkPej5LjfLlaxZW-OABgU5G-8AeJ3-oiV8kGEaBkw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RZ3MpD)
 
 ## 1. Descripcion
 El proyecto consta del despliegue de un cluster EMR en AWS para el proceso ETL de datos de contagios de Covid en colombia.
