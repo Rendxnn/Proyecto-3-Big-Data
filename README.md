@@ -97,6 +97,14 @@ Consulta desde Athena:
 
 ![image](https://github.com/user-attachments/assets/af3e9025-2a9e-48b5-8540-4b860973727f)
 
+Comandos usados para la creacion de los Steps dentro del cluster:
+```{bash}
+aws emr add-steps --cluster-id j-38ZL9U4YT5I7N \
+  --steps Type=Spark,Name="Upload covid data",ActionOnFailure=CONTINUE,\
+Args=["--deploy-mode","cluster","--master","yarn","s3://duque-uribe-rendon-p3/steps/upload_data_step.py"]
+```
+
+
 
 
 # 5. otra información que considere relevante para esta actividad.
