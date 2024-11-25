@@ -1,4 +1,4 @@
-# Proyecto 2: Tópicos de Telemática ST0263
+# Proyecto 3: Tópicos de Telemática ST0263
 
 ## Estudiantes
 - **Jaime Uribe**: jruribem@eafit.edu.com
